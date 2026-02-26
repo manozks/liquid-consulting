@@ -15,7 +15,7 @@ export default function About() {
           >
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="assets/about.jpg"
+                src="/assets/about.jpg"
                 alt="About Us"
                 className="w-full h-auto"
                 referrerPolicy="no-referrer"

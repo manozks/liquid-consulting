@@ -19,7 +19,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <img 
-                src="assets/logo-icon.png" 
+                src="/assets/logo-icon.png" 
                 alt="Liquid Consulting Logo" 
                 className="w-[41px] h-[60px] mr-2 rounded-full object-cover"
                
