@@ -58,7 +58,7 @@ export default function WhyUs() {
                 show: { opacity: 1, y: 0 }
               }}
               className={`flex flex-col items-center text-center group py-8 px-6 ${
-                index !== features.length - 1 ? 'md:border-r border-[#063AC4]' : ''
+                index !== features.length - 1 ? 'md:border-r border-[#13779D]' : ''
               }`}
             >
               <motion.div 
