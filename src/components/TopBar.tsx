@@ -11,7 +11,7 @@ export default function TopBar() {
           </div>
           <div className="flex items-center gap-2 border-l border-white/20 pl-6">
             <Clock size={14} className="text-white" />
-            <span>Working: 8:00am - 5:00pm</span>
+            <span>Working: 7:00am - 7:00pm</span>
           </div>
         </div>
         <div className="flex items-center gap-4">

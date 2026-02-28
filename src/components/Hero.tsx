@@ -1,5 +1,6 @@
 import { Star } from 'lucide-react';
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -46,12 +47,12 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="flex flex-wrap gap-4"
             >
-              <button className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-md font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-primary/30">
+              <Link to="/#contact" className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-md font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-primary/30 flex items-center justify-center">
                 Get In Touch
-              </button>
-              <button className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-md font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-primary/30">
+              </Link>
+              <Link to="/#about" className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-md font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-primary/30 flex items-center justify-center">
                 Learn More
-              </button>
+              </Link>
             </motion.div>
           </motion.div>
 
