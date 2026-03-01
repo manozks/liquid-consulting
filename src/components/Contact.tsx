@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, Loader2, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useState, FormEvent } from 'react';
 
-export default function Contact() {
+  export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
