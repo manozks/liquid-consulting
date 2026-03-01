@@ -71,9 +71,10 @@ export default function Footer() {
             </div>
              <Link 
               to="/#contact" 
-              className="w-full bg-primary hover:bg-primary-dark text-white py-3 rounded-md font-bold transition-all cursor-pointer flex items-center justify-center"
+              className="w-full group relative overflow-hidden bg-primary text-white px-6 py-3 rounded-md font-bold transition-all shadow-xl shadow-primary/30 flex items-center justify-center cursor-pointer"
             >
-              Contact Us
+              <span className="relative z-10">Contact Us</span>
+              <div className="absolute inset-0 bg-white/20 translate-y-full transition-transform duration-300 group-hover:translate-y-0"></div>
             </Link>
           </div>
         </div>

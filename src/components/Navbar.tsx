@@ -54,9 +54,10 @@ export default function Navbar() {
             </button> */}
             <button 
               onClick={() => setIsQuoteModalOpen(true)}
-              className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-md text-sm font-bold transition-all shadow-lg shadow-primary/20 cursor-pointer"
+              className="group relative overflow-hidden bg-primary text-white px-6 py-3 rounded-md font-bold transition-all shadow-xl shadow-primary/30 flex items-center justify-center cursor-pointer"
             >
-              Get Quote
+           <span className="relative z-10">  Get Quote</span>
+              <div className="absolute inset-0 bg-white/20 translate-y-full transition-transform duration-300 group-hover:translate-y-0"></div>
             </button>
             {/* <button className="p-2 text-slate-500 hover:text-primary transition-colors">
               <Menu size={24} />
@@ -95,14 +96,15 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <button 
+           <button 
             onClick={() => {
               setIsOpen(false);
               setIsQuoteModalOpen(true);
             }}
-            className="w-full bg-primary text-white py-3 rounded-md font-bold transition-all active:scale-95"
+            className="w-full group relative overflow-hidden bg-primary text-white px-6 py-3 rounded-md font-bold transition-all shadow-xl shadow-primary/30 flex items-center justify-center cursor-pointer"
           >
-            Get Quote
+           <span className="relative z-10">  Get Quote</span>
+              <div className="absolute inset-0 bg-white/20 translate-y-full transition-transform duration-300 group-hover:translate-y-0"></div>
           </button>
         </motion.div>
       )}
