@@ -7,7 +7,7 @@ export default function TopBar() {
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2">
             <Mail size={14} className="text-white" />
-            <span>info@liquidconsulting.com.au</span>
+            <a href="mailto:info@liquidconsulting.com.au" className="hover:text-primary transition-colors">info@liquidconsulting.com.au</a>
           </div>
           <div className="flex items-center gap-2 border-l border-white/20 pl-6">
             <Clock size={14} className="text-white" />

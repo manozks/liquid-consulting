@@ -160,7 +160,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-white/60 text-sm mb-1">Work with us</p>
-                  <p className="text-xl font-bold">info@liquidconsulting.com.au</p>
+                  <p className="text-xl font-bold"><a href="mailto:info@liquidconsulting.com.au" className="hover:text-white/60 transition-colors">info@liquidconsulting.com.au</a></p>
                 </div>
               </div>
 

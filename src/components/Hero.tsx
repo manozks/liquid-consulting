@@ -62,7 +62,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="hidden lg:flex justify-end"
           >
-            <div className="bg-white p-8 rounded-2xl shadow-2xl max-w-xs border border-slate-100">
+            <div className="bg-white p-8 rounded-2xl shadow-2xl max-w-xs border border-slate-100 opacity-70">
               <div className="text-5xl font-black text-slate-900 mb-2">25+ Years </div>
               <div className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-4">
                 BUSINESS SOLUTIONS
