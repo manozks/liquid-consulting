@@ -8,8 +8,8 @@ export default function PrivacyPolicy() {
     <div className="min-h-screen bg-white">
       <TopBar />
       <Navbar />
-      <main className="py-24">
-        <div className="container-custom max-w-4xl">
+      <main className="py-12">
+        <div className="w-full max-w-5xl mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
